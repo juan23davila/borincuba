@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#logo{
+    width: 30%;
+    text-align: center;
+}
+
+#imgLogo{
+    width:100%;
+}
