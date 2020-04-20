@@ -4,6 +4,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 #mainBanner{
     display: flex;
     justify-content: space-between;
