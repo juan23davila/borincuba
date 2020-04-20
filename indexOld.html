@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Borincuba</title>
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" id="logo" class="w3-bar-item w3-button w3-padding-large w3-hide-small">
+                <img id="imgLogo" src="images/page/logo-principal.png" alt="Borincuba.com">
+            </a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INICIO</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">¿CÓMO LLEGAR?</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LEYENDAS</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BEBIDAS</a>
+            <div class="w3-padding-large w3-right">
+                <div id="radio">
+                    <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+                    <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+                    <script type="text/javascript">
+                    MRP.insert({
+                    'url':'http://144.217.91.143:8015/stream',
+                    'lang':'es',
+                    'codec':'mp3',
+                    'volume':100,
+                    'autoplay':false,
+                    'forceHTML5':true,
+                    'jsevents':true,
+                    'buffering':0,
+                    'title':'Borincuba Radio',
+                    'welcome':'Bienvenidos.',
+                    'wmode':'transparent',
+                    'skin':'darkconsole',
+                    'width':190,
+                    'height':62
+                    });
+                    </script>
+                    <!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INICIO</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">¿CÓMO LLEGAR?</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LEYENDAS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BEBIDAS</a>
+    </div>
+    
+    <h2>Sitio en mantenimiento</h2>
+
+    <script src="js/interfaz.js"></script>
+</body>
+</html>
