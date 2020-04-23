@@ -29,5 +29,5 @@ function showFooter(){
     let anio = fecha.getFullYear();
 
     let footer = document.getElementById("footer");
-    footer.textContent = "Todos los derechos Reservados - Copyright © "+anio+" - @juan23davila";
+    footer.textContent = "Todos los derechos reservados - Copyright © "+anio+" - @juan23davila";
 }
