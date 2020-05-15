@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
 
     $("#leyendasbtn").click(function(){
-        $("#contenido").load("views/leyendas.html");
+        cargarLeyendas();
     });
 
     $("#mapabtn").click(function(){
@@ -30,4 +30,14 @@ function showFooter(){
 
     let footer = document.getElementById("footer");
     footer.textContent = "Todos los derechos reservados - Copyright © "+anio+" - @juan23davila";
+}
+
+
+/**
+ * Función diseñada para cargar los artitas que interpretan salsa
+ */
+function cargarLeyendas(){
+    $("#contenido").load("views/leyendas.html");
+
+    document.getElementById("cont").innerHTML = "Careverga";
 }
