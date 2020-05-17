@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $("#contenido").load("views/inicio.html");
+    cargarInicio();
 
     $("#iniciobtn").click(function(){
-        $("#contenido").load("views/inicio.html");
+        cargarInicio();
     });
 
     $("#bebidasbtn").click(function(){
@@ -21,6 +21,15 @@ $(document).ready(function(){
 });
 
 /**
+ * Se carga contenido de la primera page
+ */
+function cargarInicio(){
+    //js/views/
+    loadIni();
+}
+
+
+/**
  * Muestra el contenido del footer
  */
 function showFooter(){
@@ -32,12 +41,3 @@ function showFooter(){
     footer.textContent = "Todos los derechos reservados - Copyright © "+anio+" - @juan23davila";
 }
 
-
-/**
- * Función diseñada para cargar los artitas que interpretan salsa
- */
-function cargarLeyendas(){
-    $("#contenido").load("views/leyendas.html");
-
-    document.getElementById("cont").innerHTML = "Careverga";
-}

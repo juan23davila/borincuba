@@ -1,0 +1,32 @@
+#areaArtistas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.areaArtista{
+    width: 310px;
+    margin: 12px 10px;
+    border: solid 1px #424242;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.areaArtista p{
+    margin: 0px 10px;
+}
+
+.areaArtista img{
+    width: 120px;
+    margin: 10px auto;
+}
+
+.artistTitle{
+    background-color: #ff5733;
+    opacity: 75%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
