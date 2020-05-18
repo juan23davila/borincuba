@@ -64,7 +64,9 @@ hr{
 
 #radio{
     flex-grow: 2;
-    margin: 20px 0px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
 }
 
 #share{
@@ -104,14 +106,13 @@ hr{
     color: white;
 }
 
-.inicioNoti{
-    width: 50%;  
-    margin-right: 30px;
-    float: left;
-    border: solid black 3px;
+/* Aqui empieza responsive*/
+@media (max-width: 576px) { 
+    #profile img{
+        width: 38px;
+    }
 }
 
-/* Aqui empieza responsive*/
 @media (max-width: 768px) { 
     .inicioNoti{
         width: 100%;  
