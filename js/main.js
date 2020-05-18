@@ -17,6 +17,10 @@ $(document).ready(function(){
         $("#contenido").load("views/mapa.html");
     });
 
+    $("#iniciarSesion").click(function(){
+        alert("Esta función no se encuentra habilitada por el momento.")
+    });
+
     showFooter();
 });
 
