@@ -4,3 +4,12 @@
     float: left;
     border: solid black 3px;
 }
+
+@media (max-width: 768px) { 
+    .inicioNoti{
+        width: 100%;  
+        margin-right: 0px;
+        border: solid black 3px;
+        margin-bottom: 10px;
+    }
+}

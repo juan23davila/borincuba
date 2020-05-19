@@ -94,7 +94,6 @@ hr{
 #profile a{
     color: white;
     font-weight: bold;
-
 }
 
 #profile a:hover {
@@ -106,18 +105,19 @@ hr{
     color: white;
 }
 
-/* Aqui empieza responsive*/
+/* Aqui empieza responsive */
 @media (max-width: 576px) { 
+    .itemBanner{
+        margin: 10px 8px;
+    }
+
     #profile img{
         width: 38px;
+        margin-right: 5px;
+    }
+
+    #profile a{
+        font-size: 0.8rem;
     }
 }
 
-@media (max-width: 768px) { 
-    .inicioNoti{
-        width: 100%;  
-        margin-right: 0px;
-        border: solid black 3px;
-        margin-bottom: 10px;
-    }
-}
