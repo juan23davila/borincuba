@@ -86,6 +86,10 @@ hr{
     margin: 10px 20px;
 }
 
+#profile{
+    display: flex;
+}
+
 #profile img{
     width: 60px;
     margin-right: 10px;
@@ -94,6 +98,8 @@ hr{
 #profile a{
     color: white;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 #profile a:hover {
@@ -104,20 +110,3 @@ hr{
     margin: 0px 5px;
     color: white;
 }
-
-/* Aqui empieza responsive */
-@media (max-width: 576px) { 
-    .itemBanner{
-        margin: 10px 8px;
-    }
-
-    #profile img{
-        width: 38px;
-        margin-right: 5px;
-    }
-
-    #profile a{
-        font-size: 0.8rem;
-    }
-}
-
