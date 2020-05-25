@@ -1,4 +1,7 @@
+html{ height:100%; }
+
 body{
+    height:100%;
     background-color: lightgrey;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -9,7 +12,7 @@ footer{
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-bottom: 170px;
+    margin-bottom: 130px;
     margin-top: 20px;
 }
 
@@ -73,6 +76,10 @@ hr{
     flex-grow: 1;
 }
 
+#map {
+    height: 100%;
+}
+
 #fecha{
     font-size: small;
     color: gray; 
@@ -92,6 +99,7 @@ hr{
 
 #profile img{
     width: 60px;
+    height: 60px;
     margin-right: 10px;
 }
 

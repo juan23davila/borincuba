@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    cargarInicio();
+    loadIni();
 
     $("#iniciobtn").click(function(){
-        cargarInicio();
+        loadIni();
     });
 
     $("#bebidasbtn").click(function(){
-        $("#contenido").load("views/bebidas.html");
+        cargarBebidas();
     });
 
     $("#leyendasbtn").click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function(){
     });
 
     $("#mapabtn").click(function(){
-        $("#contenido").load("views/mapa.html");
+        preSetsMap();
     });
 
     $("#iniciarSesion").click(function(){
@@ -23,15 +23,6 @@ $(document).ready(function(){
 
     showFooter();
 });
-
-/**
- * Se carga contenido de la primera page
- */
-function cargarInicio(){
-    //js/views/
-    loadIni();
-}
-
 
 /**
  * Muestra el contenido del footer

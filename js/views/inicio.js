@@ -12,6 +12,8 @@ function addContent(content){
 //Carga contenido
 function loadIni(){
     interfaceContent = "";
+    $("#contenido").css({"padding": "2%"});
+    $('.container').css({"height": ""});
 
     addContent('<h1 class="font-weight-bold"><span class="badge badge-secondary">Nos veremos pronto</span></h1>');
     addContent('<time id="fecha"><i class="far fa-clock"></i> 15 Marzo, 2020</time>');

@@ -6,6 +6,8 @@
 //Función diseñada para cargar los artistas que interpretan salsa
 function cargarLeyendas(){
     interfaceContent = "";
+    $("#contenido").css({"height": "", "margin": "", "padding": "2%"});
+    $('.container').css({"height": ""});
 
     let artistas = [
                     "Héctor Lavoe", "Frankie Ruiz", 
@@ -25,6 +27,5 @@ function cargarLeyendas(){
         addContent('</div>');
     }
     addContent('</div><!-- id="areaArtistas" -->');
-    $("#contenido").load("views/inicio.html");
     document.getElementById("contenido").innerHTML = interfaceContent;
 }
